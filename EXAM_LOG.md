@@ -1,0 +1,34 @@
+-git bash
+-git init
+-mkdir Removal_Practical_Exam
+-cd Removal_Practical_Exam
+-git init
+-echo "#Removal_Practical_Exam Git Setup" > README.md
+-echo "This project demonstrates the setup of Local Git repository following instructions" >> README.md
+-echo "print(Hello, Git!)" sample.py  
+-echo "_Pycache_/" > sample.py
+-echo "*.pyc" >> .gitignore
+-git add .
+-git commit -m "Initial commit with README, sample and .gitignore"
+-git remote add origin https://github.com/jamaicadumatal12/Removal_Pratical_Exam.git
+-git push
+-git checkout -b feature-UI
+-git -b feature-Backend 
+-git add ui.html
+-git commit -m "Add basic HTML template for UI component 
+-git checkout feature-Backend
+-git sample.py
+-git commit -m "Add backend logic to sample.py"
+- git checkout main
+- git merge feature-UI
+- git merge feature-Backend
+- git tag v1.0
+- git push origin v1.0
+- git push
+- git add sample.py
+- git commit -m "Introduce error in backend logic"
+- git rebase -i HEAD~1
+- git checkout main
+- git log feature-UI
+- git push
+- git push
